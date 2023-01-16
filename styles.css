@@ -1,0 +1,57 @@
+body{
+    background-image: url(/resurse/poza_barca.png);
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.prezentare{
+    display: flex;
+    flex-direction: row;
+   background-color: rgba(255, 250, 250, 0.665);
+    align-items: center;
+    justify-content: center;
+    width: 95%;
+    
+}
+.citat{
+    display: flex;
+    justify-content:first baseline;
+    align-items:flex-end;
+    flex-direction: column;
+  
+}
+.stanga{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+.centru{
+    display: flex;
+    width: 65%;
+    flex-direction:column;
+}
+h1{
+    font-family: 'Crimson Text', serif;
+    font-size: 0.7cm;
+    display: flex;
+    margin: 0;
+}
+i{
+    display: flex;
+   font-weight: 600;
+    font-size: 0.6cm;
+    margin-bottom: 0.4cm;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    gap: 1.5em;
+    font-size: 18px;
+    flex-direction: column;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 0.6cm;
+}
