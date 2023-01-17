@@ -39,6 +39,7 @@ body{
     flex-direction:column;
     margin-left:1cm;
     margin-top: 1cm; 
+    justify-content: center;
 }
 h1{
     font-family: 'Crimson Text', serif;
@@ -81,4 +82,42 @@ a{
     .poza{
         display: flex;
     }
+    #slideshow {
+        text-align: center;
+        overflow: hidden;
+        height: 8cm;
+        width: 18cm;
+        margin: 0;
+      }
+      
+      .slide-wrapper {
+        width: 2912px;
+        -webkit-animation: slide 18s ease infinite;
+      }
+      
+      .slide {
+        float: left;
+        height: 8cm;
+        width: 18cm;
+      }
+      
+      
+      
+      .slide-photo {
+        color: #000;
+        text-align: center;
+       height: 8cm;
+       width: auto;
+      }
+      
+      @-webkit-keyframes slide {
+        20% {margin-left: 0px;}
+        30% {margin-left: -728px;}
+        50% {margin-left: -728px;}
+        60% {margin-left: -1456px;}
+        70% {margin-left: -1456px;}
+        80% {margin-left: -2184px;}
+        90% {margin-left: -2184px;}
+      }
+      
    
