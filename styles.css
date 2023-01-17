@@ -1,5 +1,5 @@
 body{
-    background-image: url(/resurse/poza_barca.png);
+    background-image:url('/resurse/poza_barca.png');
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
