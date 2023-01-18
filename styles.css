@@ -11,7 +11,6 @@ body{
     flex-direction: row;
    background-color: rgba(255, 250, 250, 0.665);
     align-items: center;
-   
     margin-left:0.7cm;
     margin-right: 0.7cm;
     margin-top: 0.5cm;
@@ -79,23 +78,29 @@ a{
         font-size: 0.7cm;
         display: flex;
         margin: 0;
+        
     }
     .poza{
         display: flex;
         
     }
     #slideshow {
-        text-align: center;;
+        text-align: center;
         overflow: hidden;
         height: 8cm;
         width: 18cm;
         margin: 0;
+        margin-top: 1cm;
+        margin-bottom: 1cm;
+        margin-left: 1cm;
+        margin-right: 1cm;
         
       }
       
       .slide-wrapper {
         width: 2912px;
         -webkit-animation: slide 18s ease infinite;
+        
       }
       
       .slide {
