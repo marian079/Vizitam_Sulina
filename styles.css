@@ -85,12 +85,12 @@ a{
         
     }
     #slideshow {
-        text-align: center;
+        text-align: center;;
         overflow: hidden;
         height: 8cm;
         width: 18cm;
         margin: 0;
-        justify-content: center;
+        
       }
       
       .slide-wrapper {
