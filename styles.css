@@ -1,7 +1,6 @@
 
 body{
     background-image:url('./resurse/poza_barca.png');
-    background-repeat:repeat-y;
     display: flex;
     margin:0;
     justify-content: center;
