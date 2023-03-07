@@ -1,3 +1,8 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
 body{
     background-image:url('./resurse/poza_barca.png');
     display: flex;
@@ -38,16 +43,18 @@ body{
     
 }
 p{
-    display: flex;
     font-family: 'Cormorant Garamond', serif;
     font-size: 0.6cm;
     display: flex;
     margin-bottom: 0.4cm;
     font-weight: 600;
+    margin-top: 0cm;
+    flex-direction:column;
 }
 #poza{
     display: flex;
     align-self: center;
+    flex-wrap: wrap;
 }
 button {
     background-color: inherit;
@@ -63,4 +70,6 @@ button {
 h1{
     
     font-weight: 600;
+    margin:0cm;
+    
 }
